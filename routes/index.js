@@ -43,6 +43,10 @@ router.put('/editar/:id',validar,[
 //delete
 router.delete('/eliminar/:id',validar,elimirItem)
 
+router.post("/hola",(req, res)=>{
+    res.send("prueba post")
+})
+
 
 
 module.exports = router
